@@ -1,0 +1,1000 @@
+   12  vi input_sum_fact.sh
+   13  sh ./input_sum_fact.sh 1 2 3 4 6 9
+   14  vi input_sum_fact.sh
+   15  sh ./input_sum_fact.sh 1 2 3 4 6 9
+   16  vi input_sum_fact.sh
+   17  sh ./input_sum_fact.sh 1 2 3 4 6 9
+   18  vi input_sum_fact.sh
+   19  sh ./input_sum_fact.sh 1 2 3 4 6 9
+   20  vi input_sum_fact.sh
+   21  sh ./input_sum_fact.sh 1 2 3 4 6 9
+   22  vi input_sum_fact.sh
+   23  sh ./input_sum_fact.sh 1 2 3 4 6 9
+   24  vi input_sum_fact.sh
+   25  sh ./input_sum_fact.sh 1 2 3 4 6 9
+   26  clear
+   27  vi input_sum_fact.sh
+   28  sh ./input_sum_fact.sh 1 2 3 4 6 9
+   29  cd Scripts/
+   30  ls -lrt
+   31  vi service_check.sh 
+   32  clear
+   33  cat service_check.sh 
+   34  ps -ef | grep sshd | grep -v "grep"
+   35  ps -ef | grep sshd | grep -v "grep" | echo
+   36  ps -ef | grep sshd | grep -v "grep" |  xargs echo
+   37  OUT=`ps -ef | grep $i | grep -v "grep"`
+   38  OUT=`ps -ef | grep sshd | grep -v "grep"`
+   39  RESULT=`echo $OUT | grep sshd`
+   40  echo $RESULT
+   41  echo $OUT
+   42  vi service_check.sh 
+   43  sh ./service_check.sh 
+   44  vi service_check.sh 
+   45  sh ./service_check.sh 
+   46  vi service_check.sh 
+   47  sh ./service_check.sh 
+   48  vi service_check.sh 
+   49  sh ./service_check.sh 
+   50  cd Scripts/
+   51  ls -lrt
+   52  service_check.sh >> service_check_hh.sh
+   53  cat service_check.sh >> service_check_hh.sh
+   54  vi service_check_hh.sh 
+   55  sh service_check_hh.sh 
+   56  vi service_check_hh.sh 
+   57  sh service_check_hh.sh 
+   58  vi service_check_hh.sh 
+   59  sh service_check_hh.sh 
+   60  vi service_check_hh.sh 
+   61  sh service_check_hh.sh 
+   62  vi max_check.sh
+   63  sh max_check.sh 2 5 9
+   64  vi max_check.sh
+   65  sh max_check.sh 2 5 9
+   66  sh max_check.sh 2 5 9 8 15 19 25 20
+   67  sh max_check.sh 2 5 9 8 15 19 
+   68  sh max_check.sh 19 15 12 10
+   69  vi max_check.sh
+   70  sh max_check.sh 19 15 12 10
+   71  vi max_check.sh
+   72  sh max_check.sh 19 15 12 10
+   73  vi max_check.sh
+   74  cd Scripts/
+   75  ls -lrt
+   76  clear
+   77  vi biggest_num.sh
+   78  sh ./biggest_num.sh 2 8 9 5
+   79  vi biggest_num.sh
+   80  sh ./biggest_num.sh 2 8 9 5
+   81  vi biggest_num.sh
+   82  sh ./biggest_num.sh 2 8 9 5
+   83  sh ./biggest_num.sh 2 8 9 5 6 8 15 25 2 56 18 
+   84  vi second_biggest_num.sh
+   85  sh ./second_biggest_num.sh 2 5 8 9
+   86  vi second_biggest_num.sh
+   87  sh ./second_biggest_num.sh 2 5 8 9
+   88  vi second_biggest_num.sh
+   89  sh ./second_biggest_num.sh 2 5 8 9
+   90  vi second_biggest_num.sh
+   91  sh ./second_biggest_num.sh 2 5 8 9
+   92  sh ./second_biggest_num.sh 15 25 9 18 25 56 89 75 16 23
+   93  vi case_loop_example.sh
+   94  sh ./case_loop_example.sh 
+   95  vi case_loop_example.sh
+   96  sh ./case_loop_example.sh 
+   97  date +%d -d tomorrow
+   98  [ "$(date +%d -d tomorrow)" = "01" ] && echo "True"
+   99  [ "$(date +%d -d tomorrow)" = "01" ]
+  100  [ "$(date +%d -d tomorrow)" != "01" ] && echo "false"
+  101  cd /etc
+  102  crontab -e
+  103  sh ./case_loop_example.sh 
+  104  cd ..
+  105  pwd
+  106  cd home/ec2-user
+  107  cd s
+  108  cd Scripts/
+  109  ls -lrt
+  110  clear
+  111  date
+  112  ls -lrt
+  113  cd /etc
+  114  crontab -e
+  115  cd /home/ec2-user/Scripts/
+  116  ls-lrt
+  117  ls -lrt
+  118  clear
+  119  date
+  120  chmod u+x while_pyramid_mirror.sh
+  121  ls -lrt
+  122  clear
+  123  date
+  124  cd ..
+  125  cd /etc
+  126  crontab -e
+  127  [ "$(date +%d -d tomorrow)" = "24" ] && echo "true"
+  128  crontab -e
+  129  cd ..
+  130  cd /home/ec2-user/Scripts/
+  131  date
+  132  cd /etc
+  133  crontab -e
+  134  cd /home/ec2-user/Scripts/
+  135  ls -lrt
+  136  date
+  137  cd /etc
+  138  crontab -e
+  139  cd /home/ec2-user/Scripts/
+  140  ls -lrt
+  141  sh ./while_pyramid_mirror.sh
+  142  cd /etc
+  143  crontab-e
+  144  crontab -e
+  145  cd /home/ec2-user/Scripts/
+  146  date
+  147  cd /etc
+  148  crotab -l
+  149  crontab -l
+  150  cd /home/ec2-user/Scripts/
+  151  vi simple_hello.sh
+  152  sh simple_hello.sh
+  153  /var/spool/mail/ec2-user
+  154  sudo /var/spool/mail/ec2-user
+  155  cd /etc
+  156  crontab -e
+  157  cd /home/ec2-user/Scripts/
+  158  chmod u+x simple_hello.sh 
+  159  cd /etc
+  160  crontab -e
+  161  date
+  162  cd /home/ec2-user/Scripts/
+  163  clear
+  164  date
+  165  cd /etc
+  166  crontab -e
+  167  cd /home/ec2-user/Scripts/
+  168  date
+  169  ls -lrt
+  170  date
+  171  ls -lrt
+  172  cat simple_hello.txt
+  173  cd /etc/
+  174  crontab -e
+  175  cd /home/ec2-user/Scripts/
+  176  date
+  177  clear
+  178  date
+  179  ls -lrt
+  180  cat while_pyramid_mirror.txt
+  181  sudo yum update -y
+  182  cd Scripts//
+  183  ls -lrt
+  184  vi string_reverse.sh
+  185  sh string_reverse.sh Harish
+  186  vi string_reverse.sh
+  187  sh string_reverse.sh Harish
+  188  vi string_reverse.sh
+  189  sh string_reverse.sh Harish
+  190  vi string_reverse.sh
+  191  sh string_reverse.sh Harish
+  192  vi string_reverse.sh
+  193  sh string_reverse.sh Harish
+  194  vi string_reverse.sh
+  195  sh string_reverse.sh Harish
+  196  vi string_reverse.sh
+  197  sh string_reverse.sh Harish
+  198  vi string_reverse.sh
+  199  echo "harish" | cut -d 4
+  200  echo "harish" | cut -b 4
+  201  vi string_reverse.sh
+  202  sh string_reverse.sh Harish
+  203  vi file_content_reeverse.sh
+  204  sh file_content_reeverse.sh string_reverse.sh
+  205  ls -lrt
+  206  sh file_content_reeverse.sh file1.txt
+  207  vi file_content_reeverse.sh
+  208  sh file_content_reeverse.sh file1.txt
+  209  vi file_content_reeverse.sh
+  210  sh file_content_reeverse.sh file1.txt
+  211  vi file_content_reeverse.sh
+  212  sh file_content_reeverse.sh file1.txt
+  213  vi file_content_reeverse.sh
+  214  sh file_content_reeverse.sh file1.txt
+  215  vi file_content_reeverse.sh
+  216  sh file_content_reeverse.sh file1.txt
+  217  vi file_content_reeverse.sh
+  218  sh file_content_reeverse.sh file1.txt
+  219  vi file_content_reeverse.sh
+  220  sh file_content_reeverse.sh file1.txt
+  221  vi file_content_reeverse.sh
+  222  sh file_content_reeverse.sh file1.txt
+  223  vi file_content_reeverse.sh
+  224  sh file_content_reeverse.sh file1.txt
+  225  vi file_content_reeverse.sh
+  226  sh file_content_reeverse.sh file1.txt
+  227  vi file_content_reeverse.sh
+  228  sh file_content_reeverse.sh file1.txt
+  229  vi file_content_reeverse.sh
+  230  sh file_content_reeverse.sh file1.txt
+  231  vi file_content_reeverse.sh
+  232  sh file_content_reeverse.sh file1.txt
+  233  vi file_content_reeverse.sh
+  234  sh file_content_reeverse.sh file1.txt
+  235  vi file_content_reeverse.sh
+  236  sh file_content_reeverse.sh file1.txt
+  237  vi file_content_reeverse.sh
+  238  sh file_content_reeverse.sh file1.txt
+  239  vi file_content_reeverse.sh
+  240  sh file_content_reeverse.sh file1.txt
+  241  vi file_content_reeverse.sh
+  242  sh file_content_reeverse.sh file1.txt
+  243  vi file_content_reeverse.sh
+  244  sh file_content_reeverse.sh file1.txt
+  245  vi file_content_reeverse.sh
+  246  sh file_content_reeverse.sh file1.txt
+  247  vi file_content_reeverse.sh
+  248  sh file_content_reeverse.sh file1.txt
+  249  vi file_content_reeverse.sh
+  250  sh file_content_reeverse.sh file1.txt
+  251  vi file_content_reeverse.sh
+  252  sh file_content_reeverse.sh file1.txt
+  253  vi file_content_reeverse.sh
+  254  awk '{if (NR==8) {print $0}}' file1.txt
+  255  awk '{if (NR==7) {print $0}}' file1.txt
+  256  vi file_content_reeverse.sh
+  257  sh file_content_reeverse.sh file1.txt
+  258  vi file_content_reeverse.sh
+  259  sh file_content_reeverse.sh file1.txt
+  260  vi file_content_reeverse.sh
+  261  sh file_content_reeverse.sh file1.txt
+  262  vi file_content_reeverse.sh
+  263  sh file_content_reeverse.sh file1.txt
+  264  vi file_content_reeverse.sh
+  265  sh file_content_reeverse.sh file1.txt
+  266  vi file_content_reeverse.sh
+  267  sh file_content_reeverse.sh file1.txt
+  268  vi file_content_reeverse.sh
+  269  sh file_content_reeverse.sh file1.txt
+  270  vi file_content_reeverse.sh
+  271  sh file_content_reeverse.sh file1.txt
+  272  awk '{if(NR==6) print $0}' file1.txt
+  273  sh file_content_reeverse.sh file1.txt
+  274  vi file_content_reeverse.sh
+  275  sh file_content_reeverse.sh file1.txt
+  276  vi file_content_reeverse.sh
+  277  sh file_content_reeverse.sh file1.txt
+  278  vi file_content_reeverse.sh
+  279  sh file_content_reeverse.sh file1.txt
+  280  vi file_content_reeverse.sh
+  281  sh file_content_reeverse.sh file1.txt
+  282  wq!
+  283  vi file_content_reeverse.sh
+  284  sh file_content_reeverse.sh file1.txt
+  285  vi file_content_reeverse.sh
+  286  sh file_content_reeverse.sh file1.txt
+  287  vi file_content_reeverse.sh
+  288  sh file_content_reeverse.sh file1.txt
+  289  vi file_content_reeverse.sh
+  290  sh file_content_reeverse.sh file1.txt
+  291  vi file_content_reeverse.sh
+  292  sh file_content_reeverse.sh file1.txt
+  293  vi file_content_reeverse.sh
+  294  sh file_content_reeverse.sh file1.txt
+  295  vi file_content_reeverse.sh
+  296  sh file_content_reeverse.sh file1.txt
+  297  vi file_content_reeverse.sh
+  298  sh file_content_reeverse.sh file1.txt
+  299  vi file_content_reeverse.sh
+  300  sh file_content_reeverse.sh file1.txt
+  301  vi file_content_reeverse.sh
+  302  sh file_content_reeverse.sh file1.txt
+  303  vi file_content_reeverse.sh
+  304  sh file_content_reeverse.sh file1.txt
+  305  vi file_content_reeverse.sh
+  306  sh file_content_reeverse.sh file1.txt
+  307  vi file_content_reeverse.sh
+  308  sh file_content_reeverse.sh file1.txt
+  309  vi file_content_reeverse.sh
+  310  sh file_content_reeverse.sh file1.txt
+  311  vi file_content_reeverse.sh
+  312  sh file_content_reeverse.sh file1.txt
+  313  vi file_content_reeverse.sh
+  314  sh file_content_reeverse.sh file1.txt
+  315  vi file_content_reeverse.sh
+  316  sh file_content_reeverse.sh file1.txt
+  317  vi file_content_reeverse.sh
+  318  sh file_content_reeverse.sh file1.txt
+  319  vi file_content_reeverse.sh
+  320  sh file_content_reeverse.sh file1.txt
+  321  vi file_content_reeverse.sh
+  322  sh file_content_reeverse.sh file1.txt
+  323  vi file_content_reeverse.sh
+  324  sh file_content_reeverse.sh file1.txt
+  325  vi file_content_reeverse.sh
+  326  sh file_content_reeverse.sh file1.txt
+  327  vi file_content_reeverse.sh
+  328  head - 8 file1.txt| tail-1
+  329  head - 8 file1.txt| tail -1
+  330  head -8 file1.txt| tail -1
+  331  head -7 file1.txt| tail -1
+  332  vi file_content_reeverse.sh
+  333  sh file_content_reeverse.sh file1.txt
+  334  vi file_content_reeverse.sh
+  335  sh file_content_reeverse.sh file1.txt
+  336  clear
+  337  vi menu_base_script.sh
+  338  sh menu_base_script.sh
+  339  vi menu_base_script.sh
+  340  sh menu_base_script.sh
+  341  vi menu_base_script.sh
+  342  sh menu_base_script.sh
+  343  vi menu_base_script.sh
+  344  sh menu_base_script.sh
+  345  vi menu_base_script.sh
+  346  sh menu_base_script.sh
+  347  vi menu_base_script.sh
+  348  sh menu_base_script.sh
+  349  vi menu_base_script.sh
+  350  sh menu_base_script.sh
+  351  vi menu_base_script.sh
+  352  vi copy_files.sh
+  353  vi cp_file.sh
+  354  sh cp_file.sh 
+  355  ls -lrt
+  356  cat file1h.txt
+  357  vi menu_base_script.sh
+  358  sh menu_base_script.sh
+  359  vi menu_base_script.sh
+  360  sh menu_base_script.sh
+  361  vi menu_base_script.sh
+  362  sh menu_base_script.sh
+  363  ls -lrt
+  364  sh ./simple_hello.sh
+  365  vi simple_hello.sh
+  366  sh ./simple_hello.sh
+  367  vi menu_base_script.sh
+  368  sh menu_base_script.sh
+  369  bash -x menu_base_script.sh
+  370  vi menu_base_script.sh
+  371  bash -x menu_base_script.sh
+  372  chmod u+x cp_file.sh
+  373  ls -lrt
+  374  vi menu_base_script.sh
+  375  bash -x menu_base_script.sh
+  376  ls -lrt
+  377  cat HHK.TXT 
+  378  vi menu_base_script.sh
+  379  vi rename_file.sh
+  380  sh ./rename_file.sh
+  381  vi rename_file.sh
+  382  bash -x ./rename_file.sh
+  383  vi rename_file.sh
+  384  bash -x ./rename_file.sh
+  385  ls -lrt
+  386  cat hhk.txt
+  387  sh ./menu_base_script.sh
+  388  bash -x ./menu_base_script.sh
+  389  vi menu_base_script.sh
+  390  bash -x ./menu_base_script.sh
+  391  vi menu_base_script.sh
+  392  bash -x ./menu_base_script.sh
+  393  vi menu_base_script.sh
+  394  bash -x ./menu_base_script.sh
+  395  vi menu_base_script.sh
+  396  ls -lrt
+  397  cat  service_check.sh
+  398  vi menu_base_script.sh
+  399  bash -x ./menu_base_script.sh
+  400  vi menu_base_script.sh
+  401  bash -x ./menu_base_script.sh
+  402  vi menu_base_script.sh
+  403  bash -x ./menu_base_script.sh
+  404  vi menu_base_script.sh
+  405  bash -x ./menu_base_script.sh
+  406  vi menu_base_script.sh
+  407  bash -x ./menu_base_script.sh
+  408  vi menu_base_script.sh
+  409  bash -x ./menu_base_script.sh
+  410  vi menu_base_script.sh
+  411  bash -x ./menu_base_script.sh
+  412  vi menu_base_script.sh
+  413  bash -x ./menu_base_script.sh
+  414  vi menu_base_script.sh
+  415  bash -x ./menu_base_script.sh
+  416  vi menu_base_script.sh
+  417  bash -x ./menu_base_script.sh
+  418  vi menu_base_script.sh
+  419  bash -x ./menu_base_script.sh
+  420  vi menu_base_script.sh
+  421  bash -x ./menu_base_script.sh
+  422  ls -lrt
+  423  vi menu_base_script.sh
+  424  bash -x ./menu_base_script.sh
+  425  vi ./arithmtic_ops_two_ns.sh
+  426  bash -x ./menu_base_script.sh
+  427  vi ./arithmtic_ops_two_ns.sh
+  428  bash -x ./menu_base_script.sh
+  429  vi menu_base_script.sh
+  430  ls -lrt
+  431  sh ./file_type_counts.sh
+  432  vi file_type_counts.sh
+  433  vi menu_base_script.sh
+  434  bash -x ./menu_base_script.sh
+  435  vi file_type_counts.sh
+  436  bash -x ./menu_base_script.sh
+  437  vi menu_base_script.sh
+  438  ls -lrt
+  439  cat type_check.sh
+  440  cd
+  441  ls -lrt
+  442  cd -
+  443  vi menu_base_script.sh 
+  444  bash -x menu_base_script.sh 
+  445  vi menu_base_script.sh 
+  446  bash -x menu_base_script.sh 
+  447  ls -lrt
+  448  vi menu_base_script.sh 
+  449  vi fl_cont_ln_num.sh
+  450  sh fl_cont_ln_num.sh
+  451  vi fl_cont_ln_num.sh
+  452  sh fl_cont_ln_num.sh
+  453  vi fl_cont_ln_num.sh
+  454  vi menu_base_script.sh 
+  455  bash -x menu_base_script.sh 
+  456  vi menu_base_script.sh 
+  457  vi remove_file.sh
+  458  cat fl_cont_ln_num.sh
+  459  vi remove_file.sh
+  460  vi menu_base_script.sh 
+  461  bash -x menu_base_script.sh 
+  462  vi menu_base_script.sh 
+  463  bash -x menu_base_script.sh 
+  464  vi menu_base_script.sh 
+  465  clear
+  466  vi remove_file.sh
+  467  ls -lrt
+  468  clear
+  469  vi menu_base_script.sh 
+  470  vi perfm_pattrn_tasks.sh
+  471  sh ./perfm_pattrn_tasks.sh
+  472  vi perfm_pattrn_tasks.sh
+  473  sh ./perfm_pattrn_tasks.sh
+  474  grep 'AAA' file1.txt
+  475  sh ./perfm_pattrn_tasks.sh
+  476  vi perfm_pattrn_tasks.sh
+  477  bash -x ./perfm_pattrn_tasks.sh
+  478  vi perfm_pattrn_tasks.sh
+  479  bash -x ./perfm_pattrn_tasks.sh
+  480  vi perfm_pattrn_tasks.sh
+  481  bash -x ./perfm_pattrn_tasks.sh
+  482  vi perfm_pattrn_tasks.sh
+  483  bash -x ./perfm_pattrn_tasks.sh
+  484  vi perfm_pattrn_tasks.sh
+  485  bash -x ./perfm_pattrn_tasks.sh
+  486  bash -x menu_base_script.sh 
+  487  vi menu_base_script.sh 
+  488  bash -x menu_base_script.sh 
+  489  vi menu_base_script.sh 
+  490  ls -lrt
+  491  mv file_content_reeverse.sh file_content_reverse.sh
+  492  sh ./file_content_reverse.sh
+  493  sh ./file_content_reverse.sh file1.txt
+  494  vi ./file_content_reverse.sh file1.txt
+  495  sh ./file_content_reverse.sh file1.txt
+  496  vi menu_base_script.sh 
+  497  bash -x menu_base_script.sh 
+  498  vi menu_base_script.sh 
+  499  bash -x menu_base_script.sh 
+  500  sh ./menu_base_script.sh 
+  501  vi menu_base_script.sh 
+  502  sh ./menu_base_script.sh 
+  503  vi menu_base_script.sh 
+  504  sh ./menu_base_script.sh 
+  505  vi menu_base_script.sh 
+  506  sh ./menu_base_script.sh 
+  507  sudo yum update -y
+  508  cd Scripts/
+  509  ls -lrt
+  510  clear
+  511  vi bubble_sort.sh
+  512  sh ./bubble_sort.sh 
+  513  sh ./bubble_sort.sh 2 5 6
+  514  sh ./bubble_sort.sh 
+  515  vi bubble_sort.sh
+  516  sh ./bubble_sort.sh 2 5 6
+  517  vi bubble_sort.sh
+  518  sh ./bubble_sort.sh 2 5 6
+  519  vi bubble_sort.sh
+  520  sh ./bubble_sort.sh 2 5 6
+  521  vi bubble_sort.sh
+  522  sh ./bubble_sort.sh 2 5 6
+  523  vi bubble_sort.sh
+  524  sh ./bubble_sort.sh 2 5 6
+  525  vi bubble_sort.sh
+  526  sh ./bubble_sort.sh 2 5 6
+  527  vi bubble_sort.sh
+  528  sh ./bubble_sort.sh 2 5 6
+  529  vi bubble_sort.sh
+  530  sh ./bubble_sort.sh 2 5 6
+  531  vi bubble_sort.sh
+  532  sh ./bubble_sort.sh 2 5 6
+  533  vi bubble_sort.sh
+  534  sh ./bubble_sort.sh 2 5 6
+  535  vi bubble_sort.sh
+  536  sh ./bubble_sort.sh 2 5 6
+  537  sh ./bubble_sort.sh 5 9 16 3 25 56 13 26 14 23
+  538  vi bubble_sort.sh
+  539  sh ./bubble_sort.sh 5 9 16 3 25 56 13 26 14 23
+  540  vi bubble_sort.sh
+  541  sh ./bubble_sort.sh 5 9 16 3 25 56 13 26 14 23
+  542  vi bubble_sort.sh
+  543  sh ./bubble_sort.sh 5 9 16 3 25 56 13 26 14 23
+  544  clear
+  545  du -sh *
+  546  du -sh /home
+  547  df -h /home
+  548  df -kh .
+  549  ls -lrt
+  550  wc -l /home/ec2-user/Scripts/
+  551  ls -lrt | xargs wc -l
+  552  ls -lrt | xargs echo | wc -l
+  553  ls -lrt | xargs echo $*| wc -l
+  554  ls -lrt >lists.txt
+  555  wc -l list.txt
+  556  wc -l lists.txt
+  557  cat lists.txt 
+  558  ls -lrt | awk 'END {print NR}'
+  559  ls -lrt | head -5
+  560  head -5 ls -lrt
+  561  ls -lrt | head-60 | tail -1
+  562  ls -lrt | head -60 | tail -1
+  563  ls -lrt | head -65 | tail -n+6
+  564  ls -lrt | head -65 | tail -6
+  565  ls -lrt
+  566  ls -lrt | tail -n+2 | head -25| tail-5
+  567  ls -lrt | tail -n+2 | head -25| tail -5
+  568  #grep command
+  569  clear
+  570  grep "AAA" file1.txt
+  571  grep -v "AAA" file1.txt
+  572  grep -n "AA" file1.txt
+  573  grep -n -v "AA" file1.txt
+  574  grep -n -v  -w "AA" file1.txt
+  575  grep -n   -w "AA" file1.txt
+  576  grep -n -v  -w "AA" file1.txt
+  577  grep -n -o  -w "AA" file1.txt
+  578  grep -n -o   "AA" file1.txt
+  579  grep -n -o  -c "AA" file1.txt
+  580  egrep -n -o  -c "AA|BB" file1.txt
+  581  egrep -n -o   "AA|BB" file1.txt
+  582  egrep -A1 -o   "AA|BB" file1.txt
+  583  egrep -A1    "AA|BB" file1.txt
+  584  egrep -B1    "AA|BB" file1.txt
+  585  egrep -B1 -A1   "AA|BB" file1.txt
+  586  egrep -C1   "AA|BB" file1.txt
+  587  grep -l "AAAA" *
+  588  grep -l  -R "AAAA" *
+  589  grep  -i -l  -R "AAAA" *
+  590  grep '^C' file1.txt
+  591  grep '$C' file1.txt
+  592  grep 'C$' file1.txt
+  593  # to create multiple files
+  594  touch {a..d}{1..10}.txt
+  595  ls -lrt
+  596  rm *{1..10}.txt
+  597  ls -lrt
+  598  ls -lrt | awk ' END{PR}'
+  599  ls -lrt | awk ' END{print PR}'
+  600  ls -lrt | awk ' END{print NR}'
+  601  clear
+  602  ls -lrt *.sh
+  603  ls -lrt | awk 'END{print NR}'
+  604  clear
+  605  # ----------
+  606  ls -lrt
+  607  mkdir TEST
+  608  ls -lrt
+  609    clear
+  610  chmod a=rwx file1.txt
+  611  ls -lrt
+  612  chmod a=rwx lists.txt
+  613  ls -lrt
+  614  sudo chown root:root TEST
+  615  ls -lrt
+  616  cp lists.txt /TEST/
+  617  cd TEST/
+  618  ls -lrt
+  619  cp lists.txt TEST/
+  620  cp lists.txt TEST
+  621  cp lists.txt .TEST/
+  622  cd ..
+  623  cp lists.txt TEST/
+  624  sudo lists.txt ./TEST/
+  625  sudo cp lists.txt ./TEST
+  626  cd TEST/
+  627  ls -lrt
+  628  ls -lrt | tree ll.txt
+  629  yum install tree -y
+  630  sudo yum install tree -y
+  631  yum install tree -y
+  632  sudo ls -lrt | tree ll.txt
+  633  cd ..
+  634  ls -lrt | tree ll.txt
+  635  ls -lrt | tree >ll.txt
+  636  ls -lrt | tee ll.txt
+  637  cat ll.txt
+  638  clear
+  639  rm ll.*
+  640  ls -lrt
+  641  sudo su -
+  642  clear
+  643  cd TEST/
+  644  touch file.txt
+  645  cp file.txt Scripts/
+  646  cp -r file.txt Scripts/
+  647  cp -r file.txt /home/ec2-user/Scripts/
+  648  cd ..
+  649  ls -lrt
+  650  cd TEST/
+  651  ls -lrt
+  652  touch file.txt
+  653  sudo touch file.txt
+  654  cp -r file.txt /home/ec2-user/Scripts/
+  655  cd ..
+  656  ls -lrt
+  657  cp -p lists.txt TEST/
+  658  sudo cp -p lists.txt TEST/
+  659  cd TEST/
+  660  ls -lrt
+  661  cp -i lists.txt lists1.txt
+  662  sudo cp -i lists.txt lists1.txt
+  663  sudo  mv lists1.txt ../
+  664  cd ..
+  665  ls -lrt
+  666  cd TEST/
+  667  ls -lrt
+  668  diff lists.txt lists1.txt
+  669  cd ..
+  670  diff lists.txt lists1.txt
+  671  sdiff lists.txt lists1.txt
+  672  vi lists1.txt
+  673  ls -lrt
+  674  sudo vi lists1.txt
+  675  sdiff lists.txt lists1.txt
+  676  diff lists.txt lists1.txt
+  677  clear
+  678  cd s
+  679  cd Scripts/
+  680  ls 3.110.183.143-lrt
+  681  ls -lrt
+  682  clear
+  683  cd /etc
+  684  crontab -e
+  685  cd -
+  686  ls -lrt
+  687  rm while_pyramid_mirror.txt
+  688  ls -lrt
+  689  find -name  while_pyramid_mirror.txt
+  690  find -name  file.txt
+  691  ls -lrt
+  692  date
+  693  ls -lrt
+  694  cd /etc
+  695  crontab -e
+  696  cd -
+  697  date
+  698  ls -lrt
+  699  cat while_pyramid_mirror.txt
+  700  vi i half_pyramid_reverse.sh
+  701  rm i 
+  702  ls -lrt
+  703  cd Scripts/
+  704  vi half_pyramid_reverse.sh
+  705  sh ./half_pyramid_reverse.sh
+  706  vi half_pyramid_reverse.sh
+  707  sh ./half_pyramid_reverse.sh
+  708  vi half_pyramid_reverse.sh
+  709  sh ./half_pyramid_reverse.sh
+  710  cd Scripts/
+  711  vi full_oyramid_reverse.sh
+  712  sh ./full_oyramid_reverse.sh
+  713  vi full_oyramid_reverse.sh
+  714  sh ./full_oyramid_reverse.sh
+  715  vi commnd_test.sh
+  716  sh ./commnd_test.sh 
+  717  vi commnd_test.sh
+  718  sh ./commnd_test.sh 
+  719  clear
+  720  cat >>test1.txt
+  721  sed 's/abc/ABC/g' test1.txt
+  722  sed '1s/ABC/abc/g' test1.txt
+  723  sed '1s/abc/ABC/g' test1.txt
+  724  sed '1,5s/123/321/g' test1.txt
+  725  sed '1;5s/321/123/g' test1.txt
+  726  sed '1s;5s/321/123/g' test1.txt
+  727  sed -e'1s;5s/321/123/g' test1.txt
+  728  sed -e'1-5s/321/123/g' test1.txt
+  729  sed -e '1s/ABC/abc/2' test1.txt
+  730  sed -e '1s/abc/ABC/2' test1.txt
+  731  clear
+  732  pwd
+  733  echo "/home/ec2-user/Scripts" | sed 's/\//\/g'
+  734  echo "/home/ec2-user/Scripts" | sed 's/\//\/g/'
+  735  echo "/home/ec2-user/Scripts" | sed 's/\//\/'
+  736  echo "/home/ec2-user/Scripts" | sed 's/\//\//'
+  737  echo "/home/ec2-user/Scripts" | sed 's/\//\/'
+  738  echo "/home/ec2-user/Scripts" | sed 's/\//\\/'
+  739  echo "/home/ec2-user/Scripts" | sed 's/\//\\/g'
+  740  sed '1p' test1.txt
+  741  sed  -n'1p' test1.txt
+  742  sed  -n '1p' test1.txt
+  743  clear
+  744  sed  -n '1p;5p' test1.txt
+  745  cat test1.txt
+  746  sed  -n '1d;5d' test1.txt
+  747  sed   '1d;5d' test1.txt
+  748  sed   '/abc/{n;print}' test1.txt
+  749  sed   '/abc/{/abc/n;print}' test1.txt
+  750  sed   -n '/abc/{/abc/n;print}' test1.txt
+  751  sed   -n '/abc/{/abcn;print}' test1.txt
+  752  sed -e   -n '/abc/{/abcn;print}' test1.txt
+  753  sed -e  '/abc/{/abcn;print}' test1.txt
+  754  sed -e  '/abc/{/abc/;n;print}' test1.txt
+  755  sed -e  '/abc/{/abc/d;n;print}' test1.txt
+  756  sed -e  '/abc/{/abc/d;n;p}' test1.txt
+  757  sed -e  '/abc/{n;p}' test1.txt
+  758  cat test1.txt
+  759  sed -e  -n '/abc/{n;p}' test1.txt
+  760  sed   -n '/abc/{n;p}' test1.txt
+  761  clear
+  762  sed   -n '/abc/{p}' test1.txt
+  763  sed   -n '/abc/{d}' test1.txt
+  764  sed   -n '/abc/{d;p}' test1.txt
+  765  sed   -n '/abc/{d;n;p}' test1.txt
+  766  sed   -n '/abc/{/abc/d;n;p}' test1.txt
+  767  sed    '/abc/{/abc/d;n;p}' test1.txt
+  768  sed    '/abc/ /raghu/{d;n;p}' test1.txt
+  769  sed    '/abc/raghu/{d;n;p}' test1.txt
+  770  sed    '/abc/raghu/{/abc/d;/raghu/d;n;p}' test1.txt
+  771  sed     -n '/abc/raghu/{/abc/d;/raghu/d;n;p}' test1.txt
+  772  sed      '/abc/raghu/{/abc/d;n;p}' test1.txt
+  773  sed      '/abc/raghu/{d;n;p}' test1.txt
+  774  sed      '/abc/{d;n;p}' test1.txt
+  775  sed      '/abc/,/raghu/{d;n;p}' test1.txt
+  776  sed      '/abc/, /raghu/{d;n;p}' test1.txt
+  777  sed     -n '/abc/, /raghu/{d;n;p}' test1.txt
+  778  sed      '/abc/, /raghu/{p}' test1.txt
+  779  sed      '/abc/, /raghu/p' test1.txt
+  780  sed     -n '/abc/, /raghu/p' test1.txt
+  781  sed     -n '/abc/, /raghu/{/abc/d;p;/raghu/d}' test1.txt
+  782  sed      '/abc/, /raghu/{/abc/d;p;/raghu/d}' test1.txt
+  783  sed     -n '/abc/, /raghu/{/abc/d;p;/raghu/d}' test1.txt
+  784  cat >> test2.txt
+  785  awk '$NF >0   {print $0}' test2.txt
+  786  # ps -ef to list all the running process
+  787  ps -ef
+  788  ps -ef | grep "sshd"
+  789  ps -ef | grep "sshd" | grep -v "grep"
+  790  clear
+  791  ps -u "ec2-user"
+  792  ps -u "root"
+  793  clear
+  794  find . -type f -mtime +10
+  795  find . -type f -mtime -10
+  796  find . -type f -pem 777
+  797  find . -type f -per 777
+  798  find . -type f -perm 777
+  799  find . -i -type f -perm 777
+  800  find . -iname -type f -perm 777
+  801  find .  -type f -perm -iname 777
+  802  find .  -type f  -iname -perm 777
+  803  find .  -iname *
+  804  find .  -iname test1.txt
+  805  find .  -i test1.txt
+  806  find .  -i -nametest1.txt
+  807  find .  -i -name test1.txt
+  808  find .  -iname test1.txt
+  809  find -iname test1.txt
+  810  find -iname *.txt
+  811  find -iname "*.txt"
+  812  find . -type f -size !    0
+  813  find . -type f ! -size 0
+  814  find . -type f -empty
+  815  find . -type f  ! -empty
+  816  find . -type f  -size +50b
+  817  find . -type f  -size +100
+  818  find . -type f  -size -100
+  819  find . -type f  -size -50b
+  820  clear
+  821  cd /etc
+  822  crontab -e
+  823  cd /etc
+  824  crontab -l
+  825  cd s
+  826  cd Scripts/
+  827  mkdir Alternate_Scripts
+  828  ls -lrt
+  829  cd Alternate_Scripts/
+  830  clear
+  831  ls -lrt
+  832  vi find_biigest_2nd_biggest.sh
+  833  sh ./
+  834  sh ./find_biigest_2nd_biggest.sh 5 8 9 4 3
+  835  vi find_biigest_2nd_biggest.sh
+  836  sh ./find_biigest_2nd_biggest.sh 5 8 9 4 3
+  837  vi find_biigest_2nd_biggest.sh
+  838  sh ./find_biigest_2nd_biggest.sh 5 8 9 4 3
+  839  vi find_biigest_2nd_biggest.sh
+  840  sh ./find_biigest_2nd_biggest.sh 5 8 9 4 3
+  841  vi find_biigest_2nd_biggest.sh
+  842  sh ./find_biigest_2nd_biggest.sh 5 8 9 4 3
+  843  vi find_biigest_2nd_biggest.sh
+  844  sh ./find_biigest_2nd_biggest.sh 5 8 9 4 3
+  845  vi find_biigest_2nd_biggest.sh
+  846  sh ./find_biigest_2nd_biggest.sh 5 8 9 4 3
+  847  vi find_biigest_2nd_biggest.sh
+  848  sh ./find_biigest_2nd_biggest.sh 5 8 9 4 3
+  849  vi find_biigest_2nd_biggest.sh
+  850  sh ./find_biigest_2nd_biggest.sh 5 8 9 4 3
+  851  vi find_biigest_2nd_biggest.sh
+  852  sh ./find_biigest_2nd_biggest.sh 5 8 9 4 3
+  853  clear
+  854  vi print_hslf_pyramid.sh
+  855  sh ./print_hslf_pyramid.sh 
+  856  vi full_pyramid.sh
+  857  sh ./print_hslf_pyramid.sh 
+  858  vi full_pyramid.sh
+  859  sh ./print_hslf_pyramid.sh 
+  860  sh ./full_pyramid.sh 
+  861  vi full_pyramid.sh
+  862  sh ./full_pyramid.sh 
+  863  clear
+  864  vi str_rev.sh
+  865  sh str_rev.sh
+  866  vi str_rev.sh
+  867  sh str_rev.sh
+  868  vi str_rev.sh
+  869  sh str_rev.sh
+  870  vi str_rev.sh
+  871  sh str_rev.sh
+  872  vi str_rev.sh
+  873  cd ..
+  874  ls -lrt
+  875  vi string_reverse.sh 
+  876  cd Alternate_Scripts/
+  877  vi str_rev.sh
+  878  sh str_rev.sh
+  879  vi str_rev.sh
+  880  cd ..
+  881  vi string_reverse.sh 
+  882  cd Alternate_Scripts/
+  883  vi str_rev.sh
+  884  sh str_rev.sh 
+  885  vi str_rev_cut_mthd.sh
+  886  sh str_rev_cut_mthd.sh
+  887  vi str_rev_cut_mthd.sh
+  888  sh str_rev_cut_mthd.sh
+  889  vi str_rev_cut_mthd.sh
+  890  sh str_rev_cut_mthd.sh
+  891  vi str_rev_cut_mthd.sh
+  892  sh str_rev_cut_mthd.sh
+  893  vi str_rev_cut_mthd.sh
+  894  sh str_rev_cut_mthd.sh
+  895  vi str_rev_cut_mthd.sh
+  896  sh str_rev_cut_mthd.sh
+  897  vi str_rev_cut_mthd.sh
+  898  sh str_rev_cut_mthd.sh
+  899  clear
+  900   vi half_pyramid_rev.sh
+  901  sh ./half_pyramid_rev.sh 
+  902  vi full_pyramid_reverse.sh
+  903  sh full_pyramid_reverse.sh
+  904  vi full_pyramid_reverse.sh
+  905  sh full_pyramid_reverse.sh
+  906  vi full_pyramid_mirror_reverse.sh
+  907  sh full_pyramid_mirror_reverse.sh
+  908  vi full_pyramid_mirror_reverse.sh
+  909  sh full_pyramid_mirror_reverse.sh
+  910  cd Scripts/Alternate_Scripts/
+  911  ls -lrt
+  912  vi find_biggest_2ndbiggets_single_loop.sh
+  913  sh ./find_biggest_2ndbiggets_single_loop.sh  5 8 9 2 3 7 15 25 7 16
+  914  vi find_biggest_2ndbiggets_single_loop.sh
+  915  sh ./find_biggest_2ndbiggets_single_loop.sh  5 8 9 2 3 7 15 25 7 16
+  916  vi find_biggest_2ndbiggets_single_loop.sh
+  917  sh ./find_biggest_2ndbiggets_single_loop.sh  5 8 9 2 3 7 15 25 7 16
+  918  clear
+  919  Scripts/
+  920  cd Scripts/
+  921  ls -lrt
+  922  ls -lrt | home -1
+  923  ls -lrt | head -1
+  924  clear
+  925  vi raed_two_files_while_loop.sh
+  926  sh ./raed_two_files_while_loop.sh
+  927  ls -lrt
+  928  cat test1.txt
+  929  cat test2.txt
+  930  sh ./raed_two_files_while_loop.sh
+  931  vi ./raed_two_files_while_loop.sh
+  932  sh ./raed_two_files_while_loop.sh
+  933  vi ./raed_two_files_while_loop.sh
+  934  sh ./raed_two_files_while_loop.sh
+  935  bash -x ./raed_two_files_while_loop.sh
+  936  vi ./raed_two_files_while_loop.sh
+  937  bash -x ./raed_two_files_while_loop.sh
+  938  sh ./raed_two_files_while_loop.sh
+  939  cat test1.txt
+  940  cat test2.txt
+  941  vi rd_2 fls_while_if_cond.sh
+  942  rm rd_2 fls_while_if_cond.sh
+  943  ls -lrt
+  944  vi rd_2fls_while_if_cond.sh
+  945  sh ./raed_two_files_while_loop.sh
+  946  ls -lrt
+  947  sh ./rd_2fls_while_if_cond.sh
+  948  vi rd_2fls_while_if_cond.sh
+  949  sh ./rd_2fls_while_if_cond.sh
+  950  clear
+  951  mkdir practice
+  952  cd practice/
+  953  vi full_pyramid_mirror_reverse1.sh
+  954  sh ./full_pyramid_mirror_reverse1.sh
+  955  vi full_pyramid_mirror_reverse1.sh
+  956  sh ./full_pyramid_mirror_reverse1.sh
+  957  vi full_pyramid_mirror_reverse1.sh
+  958  sh ./full_pyramid_mirror_reverse1.sh
+  959  vi full_pyramid_mirror_reverse1.sh
+  960  sh ./full_pyramid_mirror_reverse1.sh
+  961  cat /etc/os-release
+  962  cat /proc/version
+  963  cat /etc/redhat-release
+  964  cat /etc/system-release
+  965  hostnamectl
+  966  rpm --query centos-release
+  967  rpm --query fedora-release
+  968  rpm --query redhat-release
+  969  uname -a
+  970  clear
+  971  Scripts/
+  972  cd
+  973  which git
+  974  sudo yum install git -y
+  975  which git
+  976  whereis git
+  977  git -v
+  978  clear
+  979  Scripts/
+  980  git init
+  981  ls -lart
+  982  clear
+  983  git status
+  984  Scripts/
+  985  cd Scripts/
+  986  clear
+  987  git init
+  988  git status
+  989  git add *
+  990  git status
+  991  git commit -m " Shell Scripts"
+  992  git status
+  993  git remote -v
+  994  git push
+  995  git remote add origin https://github.com/HHK875/DEVOPS-LEARNING-PROJECT.git
+  996  git push
+  997  git push --set-upstream origin master
+  998  date +%T
+  999  exit
+ 1000  clear
+ 1001  Scripts/
+ 1002  cd Scripts/
+ 1003  ls -lrt
+ 1004  clear
+ 1005  history
+ 1006  history >hostory.txt
+ 1007  cat history.txt
+ 1008  rm hostory.txt history.txt
+ 1009  mv hostory.txt history.txt
+ 1010  ls -lrt
+ 1011  history >history.txt
