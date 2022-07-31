@@ -1,4 +1,6 @@
 #!/bin/bash
+
+
 echo $0
 sed '1d' $1 > del.txt
 while read LINE
