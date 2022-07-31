@@ -1,5 +1,7 @@
 #!/bin/bash
+
 echo $0
+
 LEN=${#*}
 echo $LEN
 j=0
