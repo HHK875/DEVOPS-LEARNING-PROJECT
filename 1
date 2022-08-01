@@ -1,0 +1,35 @@
+#!/bin/bash
+echo $0
+fact_func ()
+{
+
+	VAR2=$1
+	while [ $VAR2 -ge 1 ];
+        do
+		
+		FACTORIAL=` expr $FACTORIAL \* $VAR2`
+
+                VAR2=`expr $VAR2 - 1`
+        done
+        return $FACTORIAL
+}
+
+sum_func()
+{
+	SUM=$(($SUM + $1))
+}
+
+for i in $*
+do
+	SUM=0
+	FACTORIAL=1
+	VAR=$i
+	fact_func $VAR
+	sum_func
+	FACT_RSLT=$?
+	echo " The factorial of $i is : $FACT_RSLT"
+done
+echo " The sum of $* is : $SUM"
+
+
+
