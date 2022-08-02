@@ -1,7 +1,5 @@
 #!/bin/bash
-
 echo $0
-
 LEN=${#*}
 echo $LEN
 j=0
@@ -27,8 +25,6 @@ do
 
 
 	done	
-
-
 done
 echo " the ascending order of given $* is : ${arr[@]}"
 

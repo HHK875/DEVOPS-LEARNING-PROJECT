@@ -8,3 +8,5 @@ echo "Enter the new name"
 read NEW_NAME
 
 mv "$FL_PATH""$FL_NAME" "$FL_PATH""$NEW_NAME"
+
+echo "Renaming Successful"
