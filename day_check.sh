@@ -67,7 +67,7 @@ for i in {0..6}; do
         fi
 done
 
-echo " The day of the date $DT is : $DAY"
+echo "The day of the date $DT is : $DAY"
 
 
 
