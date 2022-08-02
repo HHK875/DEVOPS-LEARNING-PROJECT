@@ -1,4 +1,5 @@
 #!/bin/bash
+echo $0
 RESULT=` expr $1 % 4`
 if [ $RESULT -eq 0 ];
 then
