@@ -50,29 +50,6 @@ then
 		*)  echo "You are exiting the script!"
 			exit
 			;;
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 	esac
 
